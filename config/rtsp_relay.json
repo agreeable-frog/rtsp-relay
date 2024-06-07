@@ -1,0 +1,25 @@
+{
+    "ip": "127.0.0.1",
+    "port": "5545",
+    "mounts": [
+        {
+            "mountPoint": "test",
+            "rtspSrc": "127.0.0.1:5554/test",
+            "shared": true,
+            "bind_mcast_address": false,
+            "mcast_iface": "lo",
+            "max_mcast_ttl": 16,
+            "force_UDP_mcast": false,
+            "enableRTCP": true,
+            "latency": 0,
+            "hasAddressPool": true,
+            "addressPool": {
+                "ipMin": "224.0.0.1",
+                "ipMax": "224.0.0.1",
+                "portMin": 5545,
+                "portMax": 5545,
+                "ttl": 16
+            }
+        }
+    ]
+}
